@@ -1,0 +1,329 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #682d67;
+}
+
+.bg-area {
+    position: fixed;
+    left: -50%;
+    right: -50%;
+    top: 0;
+    bottom: 0;
+    animation: animate 5s ease-in-out infinite alternate;
+    background: linear-gradient(90deg, #a93663 50%, #2d276b -50%);
+    opacity: .5;
+    z-index: -1;
+}
+
+.layer2{
+    animation-direction: alternate-reverse;
+    animation-duration: 3s;
+}
+
+.layer3 {
+    animation-duration: 5s;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(50%)
+    }
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;  
+}
+
+.about {
+    height: 100%;
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #557797;
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 30px;
+}
+
+.about:hover {
+    background-color: rgba(255, 217, 0, 0.582);
+    box-shadow: inset 0 0 1em gold;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.manifest {
+    height: 100%;
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #557797;
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 30px;    
+}
+
+.manifest:hover {
+    background-color: rgba(255, 217, 0, 0.582);
+    box-shadow: inset 0 0 1em gold;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.principles {
+    height: 100%;
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #557797;
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 30px;    
+}
+
+.principles:hover {
+    background-color: rgba(255, 217, 0, 0.582);
+    box-shadow: inset 0 0 1em gold;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.principles > p {
+    margin: 3px;
+    text-align: left;
+}
+
+.agile {
+    height: 100%;
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #557797;
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 30px;
+}
+
+.agile:hover {
+    background-color: rgba(255, 217, 0, 0.582);
+    box-shadow: inset 0 0 1em gold;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.agile > p {
+    margin: 3px;
+    text-align: left;
+}
+
+.orion {
+    height: 100%;
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #557797;
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 30px;
+}
+
+.orion:hover {
+    background-color: rgba(255, 217, 0, 0.582);
+    box-shadow: inset 0 0 1em gold;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.orion > p {
+    font-weight: 700;
+    margin: 10px;
+    text-align: center;
+    
+}
+
+.shuhari {
+    height: 100%;
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #557797;
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 30px;
+}
+
+.shuhari:hover {
+    background-color: rgba(255, 217, 0, 0.582);
+    box-shadow: inset 0 0 1em gold;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.shuhari > ol > li {
+    padding: 7px;
+}
+
+.pillars {
+    height: 100%;
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #557797;
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 30px;
+}
+
+.pillars:hover {
+    background-color: rgba(255, 217, 0, 0.582);
+    box-shadow: inset 0 0 1em gold;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.pillars > p {
+    margin: 10px;
+    text-align: left;
+}
+
+.productOwner {
+    height: 100%;
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #557797;
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 30px;
+}
+
+.productOwner:hover {
+    background-color: rgba(255, 217, 0, 0.582);
+    box-shadow: inset 0 0 1em gold;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.productOwner > p {
+    margin: 10px;
+}
+
+.productOwner > ul > li {
+    margin: 7px;
+}
+
+.scrumMaster {
+    height: 100%;
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #557797;
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 30px;
+}
+
+.scrumMaster:hover {
+    background-color: rgba(255, 217, 0, 0.582);
+    box-shadow: inset 0 0 1em gold;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.scrumMaster > p {
+    margin: 10px;
+}
+
+.scrumMaster > ul > li {
+    margin: 7px;
+}
+
+.developers {
+    height: 100%;
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #557797;
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 30px;
+}
+
+.developers:hover {
+    background-color: rgba(255, 217, 0, 0.582);
+    box-shadow: inset 0 0 1em gold;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.developers > p {
+    margin: 10px;
+}
+
+.developers > ul > li {
+    margin: 7px;
+}
+
+.arthifacts {
+    height: 100%;
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #557797;
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 30px;
+}
+
+.arthifacts:hover {
+    background-color: rgba(255, 217, 0, 0.582);
+    box-shadow: inset 0 0 1em gold;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.arthifacts > p {
+    margin: 10px;
+}
+
+.arthifacts > ul > li {
+    margin: 7px;
+}
+
+.events {
+    height: 100%;
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #557797;
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 30px;
+}
+
+.events:hover {
+    background-color: rgba(255, 217, 0, 0.582);
+    box-shadow: inset 0 0 1em gold;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.events > p {
+    margin: 10px;
+}
+
+.events > ul > li {
+    margin: 7px;
+}
+
+@media (min-width: 360px) and (max-width: 640px) {
+    .container {
+        width: 100%;
+    }
+}
